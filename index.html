@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Postiz Desktop</title>
+<style>
+/* Layout: single reading column, quiet document styling */
+:root{--bg:#f7f6f3;--fg:#1d1c1a;--muted:#6b675f;--rule:#dcd8cf;--accent:#5a3fc0;--display:Georgia,"Times New Roman",serif;--body:system-ui,-apple-system,"Segoe UI",sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#17161a;--fg:#ebe8e1;--muted:#a19c92;--rule:#34323a;--accent:#b19cf5;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#17161a;--fg:#ebe8e1;--muted:#a19c92;--rule:#34323a;--accent:#b19cf5;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);line-height:1.6;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 64px}
+main{max-width:42rem;margin:0 auto}
+.eyebrow{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-weight:400;font-size:2rem;line-height:1.2;margin:.25rem 0 .5rem;text-wrap:balance}
+.meta{color:var(--muted);font-size:.9rem;margin:0 0 2rem;padding-bottom:1rem;border-bottom:1px solid var(--rule)}
+h2{font-family:var(--display);font-weight:400;font-size:1.3rem;margin:2rem 0 .5rem}
+p,li{font-size:1rem;max-width:65ch}
+ul{padding-left:1.2rem}
+a{color:var(--accent)}
+</style>
+</head><body>
+<main>
+<p class="eyebrow">Postiz Desktop</p>
+<h1>Postiz Desktop</h1>
+<p class="meta">A personal installation of the open-source Postiz scheduler, running on its owner's own computer.</p>
+<p>Postiz Desktop schedules and publishes the owner's own posts to the owner's own social media accounts (TikTok, Facebook, Instagram). It is not offered to the public and has no other users. All data stays on the owner's computer.</p>
+<p>Based on <a href="https://github.com/gitroomhq/postiz-app">Postiz</a> (AGPL-3.0).</p>
+<ul>
+<li><a href="privacy.html">Privacy policy</a></li>
+<li><a href="terms.html">Terms of service</a></li>
+</ul>
+</main>
+
+</body></html>
