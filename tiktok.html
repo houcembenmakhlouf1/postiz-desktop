@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Returning to Postiz</title>
+<script>
+// TikTok only accepts https redirect URLs. This page hands the login reply
+// (code, state, scopes) to the Postiz Desktop app running on this computer.
+location.replace('http://localhost:4007/integrations/social/tiktok' + location.search);
+</script>
+</head><body style="font-family:sans-serif;padding:40px">Returning to Postiz... <a id="l" href="#">Click here if nothing happens.</a>
+<script>document.getElementById('l').href='http://localhost:4007/integrations/social/tiktok'+location.search;</script>
+</body></html>
