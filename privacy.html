@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Postiz Desktop Privacy</title>
+<style>
+/* Layout: single reading column, quiet document styling */
+:root{--bg:#f7f6f3;--fg:#1d1c1a;--muted:#6b675f;--rule:#dcd8cf;--accent:#5a3fc0;--display:Georgia,"Times New Roman",serif;--body:system-ui,-apple-system,"Segoe UI",sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#17161a;--fg:#ebe8e1;--muted:#a19c92;--rule:#34323a;--accent:#b19cf5;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#17161a;--fg:#ebe8e1;--muted:#a19c92;--rule:#34323a;--accent:#b19cf5;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);line-height:1.6;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 64px}
+main{max-width:42rem;margin:0 auto}
+.eyebrow{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-weight:400;font-size:2rem;line-height:1.2;margin:.25rem 0 .5rem;text-wrap:balance}
+.meta{color:var(--muted);font-size:.9rem;margin:0 0 2rem;padding-bottom:1rem;border-bottom:1px solid var(--rule)}
+h2{font-family:var(--display);font-weight:400;font-size:1.3rem;margin:2rem 0 .5rem}
+p,li{font-size:1rem;max-width:65ch}
+ul{padding-left:1.2rem}
+a{color:var(--accent)}
+</style>
+</head><body>
+<main>
+<p class="eyebrow">Postiz Desktop</p>
+<h1>Privacy Policy</h1>
+<p class="meta">Last updated 27 October 2026. Applies to the private "Postiz Desktop" application registered by its owner for personal use.</p>
+
+<h2>What this application is</h2>
+<p>Postiz Desktop is a personal installation of the open-source Postiz scheduling software, running on one computer that belongs to the application owner. It is used only to schedule and publish the owner's own posts to the owner's own social media accounts. It is not offered to the public and has no other users.</p>
+
+<h2>Data we access</h2>
+<p>When the owner connects a social media account, the application receives an access token and basic profile information (account name, profile picture, account id) from that platform. It uses them only to publish the posts the owner creates and to show the account inside the application.</p>
+
+<h2>Where data is stored</h2>
+<p>All data, including access tokens, drafts, scheduled posts and uploaded media, is stored in a database on the owner's own computer. Nothing is sent to any server operated by the application owner or by third parties, other than the social media platforms themselves when a post is published.</p>
+
+<h2>Sharing</h2>
+<p>No data is sold, shared or transferred to anyone. The only recipients of content are the social media platforms chosen by the owner, and only when the owner publishes to them.</p>
+
+<h2>Deletion</h2>
+<p>The owner can disconnect an account inside the application at any time, which deletes its token, or revoke access from the platform's own settings. Removing the application's data folder deletes all stored data permanently.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy can be addressed to the application owner at the contact email registered with the platform's developer account.</p>
+</main>
+
+</body></html>
